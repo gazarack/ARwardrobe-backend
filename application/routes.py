@@ -43,11 +43,9 @@ class image_return(Resource):
         )
         return response
 
-class test(Resource):
-    def get(self):
-        return "Works"
+
 
 
 api.add_resource(image_return, "/image")
-api.add_resource(test, "/test")
+
 
